@@ -8,4 +8,44 @@
 
 body {
     background-color: $color-blanco;
+
+    .header-fluid {
+        // border: 1px solid blue;
+        height: 100vh;
+        background-color: $color-negro;
+
+        .header-container {
+            // border: 1px solid cornflowerblue;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .header-row {
+                // border: 1px solid orangered;
+                height: 40%;
+                width: 100%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .header-1 {
+                    width: 35%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .header-2 {
+                    border: 2px solid white;
+                    width: 50%;
+                }
+            }
+        }
+    }
 }
