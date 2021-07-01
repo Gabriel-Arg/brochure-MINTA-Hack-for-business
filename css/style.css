@@ -33,7 +33,7 @@ body .header-fluid .header-container .header-row .header-1 img {
   width: 100%;
 }
 body .header-fluid .header-container .header-row .header-2 {
-  border: 2px solid white;
+  border-top: 4px solid white;
   width: 50%;
 }
 
