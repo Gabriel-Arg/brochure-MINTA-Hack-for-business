@@ -84,32 +84,6 @@
         z-index: 0;
     }
 
-    /* --------------MARCO DE BTN----------- */
-    .marco1-btn {
-        border: 2px solid #525252;
-        border-radius: 50px;
-        width: 52px;
-        height: 118px;
-        position: fixed;
-        bottom: 51px;
-        right: 14px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        z-index: 2;
-    }
-    .marco2-btn {
-        border: 2px solid #000000;
-        border-radius: 50px;
-        width: 60px;
-        height: 126px;
-        position: fixed;
-        bottom: 47px;
-        right: 10px;
-    }
 
     /* -------------------------------------------- */
     /* ------------HEADER------- */

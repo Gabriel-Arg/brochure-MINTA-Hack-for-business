@@ -63,12 +63,33 @@
     <!--                               BOTON CONTACTO                         -->
     <!-- ------------------------------------------------------------------------------- -->
 
-    <div class="btn-contacto">
+    <div class="btn-contacto" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img src="icon/btn-mensaje2.svg" alt="Botón de mensaje">
     </div>
 
-    <!---------------MARCO DE LOS BOTONES ------------------------------------------ -->
-    <div class="marco1-btn"></div>
+    <!-- ----------------------------MODAL DEL CONTACTO---------------------------------- -->
+
+    <div class="modal fade modal_contacto" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header contact_header">
+                    <img src="img/asesorMH4B.jpg" alt="Foto de asesor de MINTA Point">
+                </div>
+
+                <div class="modal-body contact_body">
+                    <p>
+                        Hola, soy Maxi <br> tu asesor de MINTA Hacks for Business. <br>
+                        Es un gusto ponerme en contacto con vos.
+                    </p>
+                </div>
+
+                <div class="modal-footer contact_footer">
+                    <button type="button" class="btn btn-primary contact_btn">Consultar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- ------------------------------------------------------------------------------- -->
