@@ -4,6 +4,8 @@
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
         position: relative;
+        margin: 0;
+        padding: 0;
     }
     #btn-burger {
         display: flex;

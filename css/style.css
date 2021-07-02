@@ -147,5 +147,32 @@ body .header-fluid .header-container .header-row .header-2 {
   border-top: 4px solid white;
   width: 50%;
 }
+body .coment-fluid {
+  border: 1px solid blue;
+  height: 100vh;
+}
+body .coment-fluid .coment-container {
+  border: 1px solid orangered;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .coment-fluid .coment-container .coment-row {
+  border: 1px solid crimson;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .coment-fluid .coment-container .coment-row figure {
+  width: 40vw;
+}
+body .coment-fluid .coment-container .coment-row figure img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
