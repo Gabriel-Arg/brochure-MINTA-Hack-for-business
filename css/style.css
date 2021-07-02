@@ -14,7 +14,7 @@ body .burger-icon {
   height: 40px;
   cursor: pointer;
   position: fixed;
-  bottom: 70px;
+  bottom: 120px;
   right: 20px;
   z-index: 3;
   display: none;

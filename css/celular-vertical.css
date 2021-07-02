@@ -60,10 +60,19 @@
         font-weight: lighter;
     }
 
+    .burguer-icon_marco {
+        border: 4px solid #525252;
+        border-radius: 50px;
+        width: 60px;
+        height: 130px;
+        position: fixed;
+        bottom: 45px;
+        right: 10px;
+    }
     /* ------------BOTON CONTACTO------------------ */
     body .btn-contacto {
         width: 40px;
-        bottom: 20px;
+        bottom: 60px;
         right: 20px;
         z-index: 0;
     }
