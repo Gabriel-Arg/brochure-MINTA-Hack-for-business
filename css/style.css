@@ -8,7 +8,7 @@ body {
   background-color: #F9F9F9;
 }
 body .burger-icon {
-  background-color: #B1C447;
+  background-color: #525252;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -20,7 +20,7 @@ body .burger-icon {
   display: none;
 }
 body .burger-icon:hover {
-  border: 5px solid #F9F9F9;
+  border: 5px solid #B1C447;
 }
 body .menu-container-fluid {
   background-color: #000000;

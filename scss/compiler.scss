@@ -14,7 +14,7 @@ body {
     //            NAV BAR
     // ------------------------------------------
     .burger-icon {
-        background-color: $color-verde;
+        background-color: $color-gris;
         border-radius: 50%;
         width: 40px;
         height: 40px;
@@ -27,7 +27,7 @@ body {
     }
     //    queda pendiente efecto hover neon
     .burger-icon:hover {
-        border: 5px solid $color-blanco;
+        border: 5px solid $color-verde;
     }
 
     .menu-container-fluid {
