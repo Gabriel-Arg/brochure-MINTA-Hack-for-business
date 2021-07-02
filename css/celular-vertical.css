@@ -3,9 +3,10 @@
 
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
-        position: relative;
+        position: absolute;
         margin: 0;
         padding: 0;
+        background-color: none;
     }
     #btn-burger {
         display: flex;
@@ -99,6 +100,10 @@
         border-top: 4px solid white;
         width: 10%;
     }
+    
+    /* ---------------------------------------- */
+    /*            COMENTARIOS     */
+    /* ---------------------------------------- */
 
 
 }
