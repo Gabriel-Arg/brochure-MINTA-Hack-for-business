@@ -33,7 +33,8 @@ body {
     .menu-container-fluid {
         // border: 1px solid orangered;
         background-color: $color-negro;
-        height: 50px;
+        height: auto;
+        padding-top: 20px;
         position: sticky;
         top: 0;
         z-index: 1;
@@ -79,7 +80,29 @@ body {
         }
     }
 
+    // -----------------------------------------
+    //            BOTON CONTACTO
+    // -------------------------------------------
 
+    .btn-contacto {
+        width: 60px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        right: 8%;
+        z-index: 1;
+
+        img {
+            width: 100%;
+        }
+    }
+    .contacto-button:hover {
+        border: 4px solid $color-blanco;
+    }
+
+    // -----------------------------------------
+    //           HEADER
+    // -------------------------------------------
 
     .header-fluid {
         // border: 1px solid blue;

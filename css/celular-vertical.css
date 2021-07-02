@@ -9,7 +9,7 @@
         display: flex;
     }
 
-    /*---------- MENU ACTIVO Y OCULTO -----*/
+    /*---------- MENU ACTIVO Y OCULTO -------------*/
     .menu-activo {
         background-color: #525252;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.357);
@@ -60,6 +60,13 @@
         font-weight: lighter;
     }
 
+    /* ------------BOTON CONTACTO------------------ */
+    body .btn-contacto {
+        width: 40px;
+        bottom: 20px;
+        right: 20px;
+        z-index: 0;
+    }
 
     body .header-fluid .header-container .header-row .header-1 {
         width: 90%;
