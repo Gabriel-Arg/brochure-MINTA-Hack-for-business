@@ -16,6 +16,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Montserrat', sans-serif; -->
+
 
 
     <link rel="stylesheet" href="css/style.css">
@@ -29,6 +35,29 @@
 </head>
 
 <body>
+
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <!-- -----------------------NAV BAR - BURGER BUTTON-------- -->
+    <!-- ------------------------------------------------------------------------------------------------- -->
+
+    <i id="btn-burger" class="burger-icon"></i>
+
+    <div class="container-fluid menu-container-fluid">
+        <div class="container menu-container">
+            <div class="row menu-row">
+
+                <nav class="menu-oculto menu-activo">
+                    <ul>
+                        <li> <a id="enlace" class="link" href="#inicio"> Servicios </a> </li>
+                        <li> <a id="enlace" class="link" href="#skills"> Servicios puntuales </a> </li>
+                        <li> <a id="enlace" class="link" href="#proyectos"> Las otras M </a> </li>
+                        <li> <a id="enlace" class="link" href="#contacto"> Contacto </a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </div>
 
     <!-- ------------------------------------------------------------------------------- -->
     <!--                                         HEADER                         -->
@@ -52,7 +81,35 @@
 
 
 
+    <!-- ----------------------------------------------------------------------- -->
+    <!-- ----------------- JAVASCRIPT PARA EL BURGUER BUTTON---- -->
+    <!-- ----------------------------------------------------------------------- -->
 
+    <script>
+        // SELECTORES --- seleccionamos a la class que contiene al nav y al boton hamburgueza.
+        document.querySelector('.menu-activo');
+        document.querySelector('.burger-icon');
+
+        // VARIABLES CONSTANTES
+        const menu = document.querySelector('.menu-activo');
+        const burgerButton = document.querySelector('.burger-icon');
+
+        // DEJO UN MENSAJE CON LAS VARIABLES
+        console.log(menu);
+        console.log(burgerButton);
+
+        // EVENTO SOBRE EL BURGER-BUTTON
+        burgerButton.addEventListener('click', desplegar);
+
+        // FUNCIÓN para que DESPLIEGUE Y SE OCULTE EL MENU
+        function desplegar() {
+            if (menu.classList.contains('menu-oculto')) {
+                menu.classList.remove('menu-oculto');
+            } else {
+                menu.classList.add('menu-oculto');
+            }
+        }
+    </script>
 
 
 
