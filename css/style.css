@@ -152,12 +152,10 @@ body .header-fluid .header-container .header-row .header-2 {
   width: 50%;
 }
 body .frase-fluid {
-  border: 1px solid blue;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 }
 body .frase-fluid .frase-container {
-  border: 1px solid green;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -165,7 +163,6 @@ body .frase-fluid .frase-container {
   align-items: center;
 }
 body .frase-fluid .frase-container .frase-row {
-  border: 1px solid orangered;
   height: 80%;
   width: 100%;
   display: flex;
@@ -182,14 +179,30 @@ body .frase-fluid .frase-container .frase-row figure {
 }
 body .frase-fluid .frase-container .frase-row figure img {
   width: 100%;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 3px 3px 7px #b8b8b8;
 }
 body .frase-fluid .frase-container .frase-row .frase_row_titulo {
-  border: 1px solid brown;
-  height: 100px;
+  height: auto;
+}
+body .frase-fluid .frase-container .frase-row .frase_row_titulo span {
+  font-size: 150px;
+  margin-right: 10px;
+  color: #b8b8b8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .frase-fluid .frase-container .frase-row .frase_row_titulo h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body .frase-fluid .frase-container .frase-row .frase_row_autor {
-  border: 1px solid brown;
-  height: 70px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  margin-left: 50%;
 }
 body .coment-fluid {
   height: 100vh;

@@ -26,8 +26,15 @@
         width: 30px;
         height: 30px;
     }
-
-
+    body .frase-fluid .frase-container .frase-row .frase_row_titulo {
+        padding: 0px;
+    }
+    body .frase-fluid .frase-container .frase-row .frase_row_titulo span {
+        font-size: 80px;
+    }
+    body .frase-fluid .frase-container .frase-row .frase_row_titulo h4 {
+        font-size: 1.3rem;
+    }
 
 
 
