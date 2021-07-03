@@ -151,6 +151,46 @@ body .header-fluid .header-container .header-row .header-2 {
   border-top: 4px solid white;
   width: 50%;
 }
+body .frase-fluid {
+  border: 1px solid blue;
+  height: 100vh;
+  position: relative;
+}
+body .frase-fluid .frase-container {
+  border: 1px solid green;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .frase-fluid .frase-container .frase-row {
+  border: 1px solid orangered;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .frase-fluid .frase-container .frase-row figure {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  left: 0px;
+}
+body .frase-fluid .frase-container .frase-row figure img {
+  width: 100%;
+}
+body .frase-fluid .frase-container .frase-row .frase_row_titulo {
+  border: 1px solid brown;
+  height: 100px;
+}
+body .frase-fluid .frase-container .frase-row .frase_row_autor {
+  border: 1px solid brown;
+  height: 70px;
+}
 body .coment-fluid {
   height: 100vh;
 }

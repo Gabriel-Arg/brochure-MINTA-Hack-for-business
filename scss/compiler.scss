@@ -203,6 +203,76 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           FRASE
+    // ------------------------------------------------------------------
+    .frase-fluid {
+        border: 1px solid blue;
+        height: 100vh;
+        position: relative;
+
+        .frase-container {
+            border: 1px solid green;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .frase-row {
+                border: 1px solid orangered;
+                height: 80%;
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                figure {
+                    // border: 1px solid red;
+                    // background-color: $color-negro;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0;
+                    position: absolute;
+                    left: 0px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .frase_row_titulo {
+                    border: 1px solid brown;
+                    height: 100px;
+                }
+
+                .frase_row_autor {
+                    border: 1px solid brown;
+                    height: 70px;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // -----------------------------------------
     //           COMENTARIOS
     // -------------------------------------------
