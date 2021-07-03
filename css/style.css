@@ -154,6 +154,7 @@ body .header-fluid .header-container .header-row .header-2 {
 body .frase-fluid {
   height: 70vh;
   position: relative;
+  z-index: -1;
 }
 body .frase-fluid .frase-container {
   height: 100%;
