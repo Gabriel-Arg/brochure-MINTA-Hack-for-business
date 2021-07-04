@@ -231,6 +231,7 @@ body {
                 justify-content: center;
                 align-items: center;
 
+                // -----Etiqueta laterla con el logo
                 figure {
                     // border: 1px solid red;
                     // background-color: $color-negro;
@@ -278,31 +279,17 @@ body {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // -----------------------------------------
-    //           COMENTARIOS
-    // -------------------------------------------
-    .coment-fluid {
-        // border: 1px solid blue;
+    // ------------------------------------------------------------------
+    //           COMENTARIOS DE CLIENTES
+    // ------------------------------------------------------------------
+    .comentarios-fluid {
+        border: 1px solid blue;
         height: 100vh;
+        position: relative;
+        z-index: -1;
 
-        .coment-container {
-            // border: 1px solid orangered;
+        .comentarios-container {
+            border: 1px solid grey;
             height: 100%;
 
             display: flex;
@@ -310,72 +297,43 @@ body {
             justify-content: center;
             align-items: center;
 
-            .coment-row {
-                // border: 1px solid crimson;
-                height: 90%;
+            .comentarios-row {
+                border: 1px solid chocolate;
+                height: 85%;
                 width: 100%;
 
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-
+                // -----Etiqueta laterla con el logo
                 figure {
-                    width: 40%;
+                    // border: 1px solid red;
+                    // background-color: $color-negro;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0;
+                    position: absolute;
+                    right: 0px;
+                    bottom: 50%;
 
                     img {
                         width: 100%;
+                        border-radius: 5px 0px 0px 5px;
+                        box-shadow: 3px 3px 7px $color-gris;
                     }
-                }
-
-                .coment_row_content {
-                    // border: 1px solid green;
-                    width: 35%;
-                    height: 100%;
-
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: center;
-
-                    .coment_0 {
-                        background-color: $color-gris;
-                        border-radius: 50%;
-                        border: 1px solid $color-negro;
-                        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.371);
-                        width: 30px;
-                        height: 30px;
-                        cursor: pointer;
-                        transition: 0.4s;
-
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                        align-items: center;
-
-                        p {
-                            // border: 1px solid red;
-                            height: 100%;
-                            color: $color-gris;
-                            text-align: justify;
-                            padding: 0px 10px;
-                            margin: 0;
-                            font-size: 1px;
-                            transition: 0.5s;
-                        }
-                    }
-                    .coment_0:hover {
-                        width: 90%;
-                        height: 70px;
-                        border-radius: 5px;
-                    }
-                    .coment_0 p:hover {
-                        color: $color-negro;
-                        font-size: 14px;
-                    }
-
                 }
             }
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }

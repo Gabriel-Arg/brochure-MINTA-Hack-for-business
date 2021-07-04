@@ -205,69 +205,37 @@ body .frase-fluid .frase-container .frase-row .frase_row_autor {
   text-align: center;
   margin-left: 50%;
 }
-body .coment-fluid {
+body .comentarios-fluid {
+  border: 1px solid blue;
   height: 100vh;
+  position: relative;
+  z-index: -1;
 }
-body .coment-fluid .coment-container {
+body .comentarios-fluid .comentarios-container {
+  border: 1px solid grey;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .coment-fluid .coment-container .coment-row {
-  height: 90%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-body .coment-fluid .coment-container .coment-row figure {
-  width: 40%;
-}
-body .coment-fluid .coment-container .coment-row figure img {
+body .comentarios-fluid .comentarios-container .comentarios-row {
+  border: 1px solid chocolate;
+  height: 85%;
   width: 100%;
 }
-body .coment-fluid .coment-container .coment-row .coment_row_content {
-  width: 35%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+body .comentarios-fluid .comentarios-container .comentarios-row figure {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  bottom: 50%;
 }
-body .coment-fluid .coment-container .coment-row .coment_row_content .coment_0 {
-  background-color: #b8b8b8;
-  border-radius: 50%;
-  border: 1px solid #000000;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.371);
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  transition: 0.4s;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-body .coment-fluid .coment-container .coment-row .coment_row_content .coment_0 p {
-  height: 100%;
-  color: #b8b8b8;
-  text-align: justify;
-  padding: 0px 10px;
-  margin: 0;
-  font-size: 1px;
-  transition: 0.5s;
-}
-body .coment-fluid .coment-container .coment-row .coment_row_content .coment_0:hover {
-  width: 90%;
-  height: 70px;
-  border-radius: 5px;
-}
-body .coment-fluid .coment-container .coment-row .coment_row_content .coment_0 p:hover {
-  color: #000000;
-  font-size: 14px;
+body .comentarios-fluid .comentarios-container .comentarios-row figure img {
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 3px 3px 7px #b8b8b8;
 }
 
 /*# sourceMappingURL=style.css.map */

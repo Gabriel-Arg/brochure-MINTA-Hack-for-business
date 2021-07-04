@@ -124,7 +124,17 @@
         font-size: 1rem;
     }
 
+    /* ------------------------------------------------------ */
+    /*           COMENTARIOS DE LOS CLIENTES     */
+    /* ------------------------------------------------------ */
+    body .comentarios-fluid .comentarios-container .comentarios-row {
+        height: 90%;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row figure {
+        width: 30px;
+        height: 30px;
 
+    }
 
 
 
