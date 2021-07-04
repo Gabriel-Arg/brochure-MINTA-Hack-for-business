@@ -207,13 +207,13 @@ body {
     //           FRASE
     // ------------------------------------------------------------------
     .frase-fluid {
-        border: 1px solid blue;
+        // border: 1px solid blue;
         height: 70vh;
         position: relative;
         z-index: -1;
 
         .frase-container {
-            border: 1px solid green;
+            // border: 1px solid green;
             height: 100%;
 
             display: flex;
@@ -222,7 +222,7 @@ body {
             align-items: center;
 
             .frase-row {
-                border: 1px solid orangered;
+                // border: 1px solid orangered;
                 height: 80%;
                 width: 100%;
 
