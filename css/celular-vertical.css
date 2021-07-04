@@ -133,9 +133,12 @@
     body .comentarios-fluid .comentarios-container .comentarios-row figure {
         width: 30px;
         height: 30px;
-
     }
-
+    
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
+        font-size: 13px;
+        text-align: center;
+    }
 
 
 

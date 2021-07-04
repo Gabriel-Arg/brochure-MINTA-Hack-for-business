@@ -10,6 +10,15 @@ a {
     font-size: 14px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fuente-parrafos;
+    font-weight: bold;
+}
+
+p {
+    font-family: $fuente-parrafos;
+}
+
 body {
     background-color: $color-blanco;
 
@@ -254,6 +263,7 @@ body {
 
                     span {
                         font-size: 150px;
+                        font-weight: bold;
                         margin-right: 10px;
                         color: $color-gris;
                         font-family: Arial, Helvetica, sans-serif;
@@ -261,6 +271,7 @@ body {
 
                     h4 {
                         font-size: 2.5rem;
+                        font-weight: bold;
                         text-align: center;
                         display: flex;
                         justify-content: center;
@@ -298,7 +309,7 @@ body {
             align-items: center;
 
             .comentarios-row {
-                border: 1px solid chocolate;
+                border: 1px solid black;
                 height: 85%;
                 width: 100%;
 
@@ -319,6 +330,32 @@ body {
                         box-shadow: 3px 3px 7px $color-gris;
                     }
                 }
+
+                .comentarios-row_titulo {
+                    border: 1px solid chocolate;
+                    height: auto;
+                    width: 100%;
+
+                    h3 {
+                        border: 1px solid red;
+                        
+                    }
+                }
+
+                .comentarios-row_body {
+                    border: 1px solid chocolate;
+                    height: 200px;
+                }
+
+                .comentarios-row_frase {
+                    border: 1px solid chocolate;
+                    height: 100px;
+                }
+
+
+
+
+
             }
         }
     }
