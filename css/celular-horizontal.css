@@ -40,6 +40,7 @@
         font-size: 1.2rem;
     }
 
+
     /* ---------COMENTARIOS DE LOS CLIENTES------------------------------------ */
     body .comentarios-fluid .comentarios-container .comentarios-row figure {
         width: 30px;
@@ -47,6 +48,15 @@
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
         font-size: 16px;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body {
+        flex-direction: column;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B {
+    border: 1px solid green;
+    height: auto;
+    width: 100%;
     }
 
 

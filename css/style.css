@@ -9,8 +9,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
@@ -212,9 +211,7 @@ body .frase-fluid .frase-container .frase-row .frase_row_titulo h4 {
 }
 body .frase-fluid .frase-container .frase-row .frase_row_autor {
   height: auto;
-  width: auto;
   text-align: center;
-  margin-left: 50%;
 }
 body .comentarios-fluid {
   border: 1px solid blue;
@@ -234,6 +231,10 @@ body .comentarios-fluid .comentarios-container .comentarios-row {
   border: 1px solid black;
   height: 85%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 body .comentarios-fluid .comentarios-container .comentarios-row figure {
   width: 40px;
@@ -249,16 +250,60 @@ body .comentarios-fluid .comentarios-container .comentarios-row figure img {
   box-shadow: 3px 3px 7px #b8b8b8;
 }
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo {
-  border: 1px solid chocolate;
   height: auto;
   width: 100%;
 }
-body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
-  border: 1px solid red;
-}
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body {
   border: 1px solid chocolate;
-  height: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B {
+  border: 1px solid green;
+  height: auto;
+  width: 45%;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_1,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_2,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_3,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 {
+  border: 1px solid cyan;
+  height: auto;
+  margin: 0px 0px 10px;
+  border-left: 4px solid #b8b8b8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_1 span,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_2 span,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_3 span,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1 span,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2 span,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 span {
+  height: 70px;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+  color: #b8b8b8;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_1 p,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_2 p,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_3 p,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1 p,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2 p,
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 p {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase {
   border: 1px solid chocolate;
