@@ -22,6 +22,12 @@
     }
 
     /* ---------FRASE-------------------------------------------------------- */
+    body .frase-fluid {
+        height: 100vh;
+    }
+    body .frase-fluid .frase-container .frase-row {
+        height: 100%;
+    }
     body .frase-fluid .frase-container .frase-row figure {
         width: 30px;
         height: 30px;
