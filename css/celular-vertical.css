@@ -127,21 +127,47 @@
     /* ------------------------------------------------------ */
     /*           COMENTARIOS DE LOS CLIENTES     */
     /* ------------------------------------------------------ */
+    body .comentarios-fluid {
+        height: 100%;
+        padding: 0;
+    }
     body .comentarios-fluid .comentarios-container .comentarios-row {
-        height: 90%;
+        height: auto;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row figure {
         width: 30px;
         height: 30px;
     }
-    
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo {
+        margin-bottom: 100px;
+    }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
     }
-
-
-
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body {
+        flex-direction: column;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B {
+        width: 100%;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_1,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_2,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_3,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 {
+        margin: 0px 0px 50px;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_1 p,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_2 p,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_A .comentarios-row_body_A_3 p,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1 p,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2 p,
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 p {
+        font-size: 1.1rem;
+    }
 
 
 

@@ -291,13 +291,13 @@ body {
     //           COMENTARIOS DE CLIENTES
     // ------------------------------------------------------------------
     .comentarios-fluid {
-        border: 1px solid blue;
-        height: 100vh;
+        // border: 1px solid blue;
+        height: auto;
         position: relative;
         z-index: -1;
 
         .comentarios-container {
-            border: 1px solid grey;
+            // border: 1px solid grey;
             height: 100%;
 
             display: flex;
@@ -306,7 +306,7 @@ body {
             align-items: center;
 
             .comentarios-row {
-                border: 1px solid black;
+                // border: 1px solid black;
                 height: 85%;
                 width: 100%;
 
@@ -337,6 +337,7 @@ body {
                     // border: 1px solid chocolate;
                     height: auto;
                     width: 100%;
+                    margin-bottom: 50px;
 
                     h3 {
                         // border: 1px solid red;
@@ -344,7 +345,7 @@ body {
                 }
 
                 .comentarios-row_body {
-                    border: 1px solid chocolate;
+                    // border: 1px solid chocolate;
                     height: auto;
 
                     display: flex;
@@ -354,16 +355,16 @@ body {
 
                     .comentarios-row_body_A,
                     .comentarios-row_body_B {
-                        border: 1px solid green;
+                        // border: 1px solid green;
                         height: auto;
                         width: 45%;
 
                         .comentarios-row_body_A_1,
                         .comentarios-row_body_A_2,
                         .comentarios-row_body_A_3 {
-                            border: 1px solid cyan;
+                            // border: 1px solid cyan;
                             height: auto;
-                            margin: 0px 0px 10px;
+                            margin: 0px 0px 50px;
                             border-left: 4px solid $color-gris;
 
                             display: flex;
