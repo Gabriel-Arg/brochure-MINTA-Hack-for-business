@@ -353,8 +353,18 @@ body .porque-fluid .porque-container .porque-row h3 {
   font-weight: bold;
   margin-bottom: 50px;
 }
+body .porque-fluid .porque-container .porque-row #quees {
+  margin-bottom: 20px;
+}
+body .porque-fluid .porque-container .porque-row p {
+  margin-bottom: 50px;
+}
+body .porque-fluid .porque-container .porque-row h5 {
+  margin-bottom: 30px;
+  width: 70%;
+}
 body .porque-fluid .porque-container .porque-row .porque-row_linea {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: center;

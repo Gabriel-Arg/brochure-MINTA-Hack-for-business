@@ -182,7 +182,12 @@
 
     /* ---------------------------------------------------------------------------- */
     /*              PORQUE NOS ELEGIS */
-
+    body .porque-fluid .porque-container .porque-row h5 {
+        width: 100%;
+    }
+    body .porque-fluid .porque-container .porque-row .porque-row_linea {
+        width: 100%;
+    }
     body .porque-fluid .porque-container .porque-row .porque-row_linea div {
         width: 10px;
         margin: 0px 8px 0px 10px;
