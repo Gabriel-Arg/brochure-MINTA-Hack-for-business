@@ -29,13 +29,14 @@ body {
     // ------------------------------------------------------------
     .burger-icon {
         background-color: $color-gris;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
+        border-radius: 5px 0px 0px 5px;
+        box-shadow: 3px 3px 7px #525252;
+        width: 45px;
+        height: 45px;
         cursor: pointer;
         position: fixed;
         bottom: 120px;
-        right: 20px;
+        right: 0px;
         z-index: 3;
         display: none;
     }
@@ -104,19 +105,20 @@ body {
     // ------------------------------------------------------------
 
     .btn-contacto {
+        border-radius: 5px 0px 0px 5px;
+        width: 60px;
         width: 60px;
         cursor: pointer;
+        
         position: fixed;
         bottom: 20px;
-        right: 8%;
+        right: 2%;
         z-index: 1;
 
         img {
+            border-radius: 5px;
             width: 100%;
         }
-    }
-    .contacto-button:hover {
-        border: 4px solid $color-blanco;
     }
 
     // ------------------MODAL-----------------------------

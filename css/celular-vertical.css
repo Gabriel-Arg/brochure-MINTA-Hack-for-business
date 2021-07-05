@@ -1,6 +1,5 @@
 @media screen and (max-width: 575px) {
 
-
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
         position: absolute;
@@ -84,12 +83,17 @@
     /* ------------BOTON CONTACTO------- */
     /* -------------------------------------------- */
     body .btn-contacto {
-        width: 40px;
+        border-radius: 5px 0px 0px 5px;
+        width: 45px;
+        height: 45px;
         bottom: 60px;
-        right: 20px;
+        right: 0px;
         z-index: 0;
     }
-
+    body .btn-contacto img {
+        border-radius: 5px 0px 0px 5px;
+        box-shadow: 3px 3px 7px #525252;
+    }
 
     /* -------------------------------------------- */
     /* ------------HEADER------- */
