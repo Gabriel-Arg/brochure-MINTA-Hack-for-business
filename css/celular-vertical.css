@@ -182,8 +182,17 @@
 
     /* ---------------------------------------------------------------------------- */
     /*              PORQUE NOS ELEGIS */
+    /* -------------QUE ES UNA CONSULTORA 360 */
     body .porque-fluid .porque-container .porque-row h5 {
         width: 100%;
+    }
+    body .porque-fluid .porque-container .porque-row figure {
+        width: 30px;
+        height: 30px;
+    }
+    /* Etiqueta M hacia la izquierda */
+    #porque-etiqueta-m {
+        top: -60px;
     }
     body .porque-fluid .porque-container .porque-row .porque-row_linea {
         width: 100%;
@@ -194,10 +203,10 @@
     }
     body .porque-fluid .porque-container .porque-row .porque-row_linea p {
         text-align: justify;
-        margin-bottom: 25px;
-        padding-right: 20px;
+        margin-bottom: 30px;
+        padding-right: 25px;
+        font-size: 0.9rem;
     }
-
 
 
 

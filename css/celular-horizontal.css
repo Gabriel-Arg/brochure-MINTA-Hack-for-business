@@ -110,6 +110,10 @@
     body .porque-fluid .porque-container .porque-row h5 {
         width: 90%;
     }
+    body .porque-fluid .porque-container .porque-row figure {
+        width: 30px;
+        height: 30px;
+    }
     body .porque-fluid .porque-container .porque-row .porque-row_linea {
         width: 90%;
     }
