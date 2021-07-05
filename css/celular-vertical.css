@@ -168,6 +168,9 @@
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 p {
         font-size: 1rem;
     }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase {
+        margin-top: 100px;
+    }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase p {
         text-align: center;
         margin-bottom: 10px;
