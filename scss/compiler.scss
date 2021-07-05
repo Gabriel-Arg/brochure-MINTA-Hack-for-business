@@ -8,14 +8,17 @@
 
 a {
     font-size: 14px;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $fuente-titulos;
+    color: $color-negro;
 }
 
 p {
     font-family: $fuente-parrafos;
+    color: $color-negro;
 }
 
 body {
@@ -416,8 +419,80 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           PORQUE NOS ELEGIS
+    // ------------------------------------------------------------------
+    .porque-fluid {
+        // border: 1px solid blue;
+        height: auto;
+        margin: 200px 0px 100px;
+        position: relative;
+        z-index: -1;
 
+        .porque-container {
+            // border: 1px solid black;
+            height: 100%;
 
+            .porque-row {
+                // border: 1px solid gray;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                // -----Etiqueta laterla con el logo
+                figure {
+                    // border: 1px solid red;
+                    // background-color: $color-negro;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0;
+                    position: absolute;
+                    left: 0px;
+                    top: 50%;
+
+                    img {
+                        width: 100%;
+                        border-radius: 0px 5px 5px 0px;
+                        box-shadow: 3px 3px 7px $color-gris;
+                    }
+                }
+
+                h3 {
+                    // border: 1px solid red;
+                    font-weight: bold;
+                    margin-bottom: 50px;
+                }
+
+                .porque-row_linea {
+                    // border: 1px solid red;
+                    width: 100%;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    div {
+                        width: 10px;
+                        margin: 0px 8px 0px 35px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    p {
+                        text-align: start;
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
 
 
 

@@ -180,6 +180,24 @@
         text-align: center;
     }
 
+    /* ---------------------------------------------------------------------------- */
+    /*              PORQUE NOS ELEGIS */
+
+    body .porque-fluid .porque-container .porque-row .porque-row_linea div {
+        width: 10px;
+        margin: 0px 8px 0px 25px;
+    }
+    body .porque-fluid .porque-container .porque-row .porque-row_linea p {
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
 
 
 

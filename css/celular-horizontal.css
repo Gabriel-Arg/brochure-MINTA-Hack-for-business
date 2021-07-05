@@ -105,6 +105,13 @@
         font-size: 1.4rem;
     }
 
+    /* ---------------------------------------------------------------------------- */
+    /*              PORQUE NOS ELEGIS */
+
+    body .porque-fluid .porque-container .porque-row .porque-row_linea div {
+        margin: 0px 8px 0px 25px;
+    }
+
 
 
 
