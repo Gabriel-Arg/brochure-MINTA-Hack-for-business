@@ -139,10 +139,10 @@
         height: 30px;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body {
@@ -166,9 +166,16 @@
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_1 p,
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_2 p,
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body .comentarios-row_body_B .comentarios-row_body_A_3 p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
-
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase h4 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
 
 
 

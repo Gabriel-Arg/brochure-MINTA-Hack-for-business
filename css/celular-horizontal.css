@@ -44,6 +44,7 @@
     /* ---------COMENTARIOS DE LOS CLIENTES------------------------------------ */
     body .comentarios-fluid {
         height: 100%;
+        margin-top: 20px;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row {
         height: auto;
@@ -53,7 +54,7 @@
         height: 30px;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo {
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
     body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo h3 {
         font-size: 17px;
@@ -94,7 +95,15 @@
         font-size: 14px;
         font-weight: 600;
     }
-
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase {
+        margin-top: 50px;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase p {
+        font-size: 1rem;
+    }
+    body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase h4 {
+        font-size: 1.4rem;
+    }
 
 
 

@@ -293,6 +293,7 @@ body {
     .comentarios-fluid {
         // border: 1px solid blue;
         height: auto;
+        margin: 100px 0px 50px;
         position: relative;
         z-index: -1;
 
@@ -337,7 +338,7 @@ body {
                     // border: 1px solid chocolate;
                     height: auto;
                     width: 100%;
-                    margin-bottom: 50px;
+                    margin-bottom: 100px;
 
                     h3 {
                         // border: 1px solid red;
@@ -392,14 +393,25 @@ body {
                 }
 
                 .comentarios-row_frase {
-                    border: 1px solid chocolate;
-                    height: 60px;
+                    // border: 1px solid chocolate;
+                    height: auto;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-end;
+
+                    p {
+                        margin: 0;
+                        font-size: 1.2rem;
+                    }
+
+                    h4 {
+                        color: $color-gris-oscuro;
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                    }
                 }
-
-
-
-
-
             }
         }
     }

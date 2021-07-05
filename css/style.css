@@ -215,6 +215,7 @@ body .frase-fluid .frase-container .frase-row .frase_row_autor {
 }
 body .comentarios-fluid {
   height: auto;
+  margin: 100px 0px 50px;
   position: relative;
   z-index: -1;
 }
@@ -249,7 +250,7 @@ body .comentarios-fluid .comentarios-container .comentarios-row figure img {
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_titulo {
   height: auto;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_body {
   height: auto;
@@ -301,8 +302,20 @@ body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row
   font-weight: 600;
 }
 body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase {
-  border: 1px solid chocolate;
-  height: 60px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row_frase h4 {
+  color: #525252;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
