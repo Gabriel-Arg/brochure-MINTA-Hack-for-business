@@ -133,6 +133,9 @@ body .modal_contacto .contact_footer .contact_btn {
   color: #000000;
   border: none;
 }
+body .modal_contacto .contact_footer .contact_btn a {
+  color: #000000;
+}
 body .header-fluid {
   height: 100vh;
   background-color: #000000;

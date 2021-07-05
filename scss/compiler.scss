@@ -166,6 +166,10 @@ body {
                 background-color: $color-verde;
                 color: $color-negro;
                 border: none;
+
+                a {
+                    color: $color-negro;
+                }
             }
         }
     }
