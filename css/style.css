@@ -385,5 +385,23 @@ body .porque-fluid .porque-container .porque-row .porque-row_linea p {
   text-align: start;
   width: 100%;
 }
+body .servicios-fluid {
+  height: auto;
+}
+body .servicios-fluid .servicios-container {
+  height: 100%;
+}
+body .servicios-fluid .servicios-container .servicios-row {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .servicios-fluid .servicios-container .servicios-row h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: end;
+}
 
 /*# sourceMappingURL=style.css.map */

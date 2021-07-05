@@ -514,7 +514,35 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           NUESTROS SERVICIOS
+    // ------------------------------------------------------------------
+    .servicios-fluid {
+        // border: 1px solid black;
+        height: auto;
 
+        .servicios-container {
+            // border: 1px solid gray;
+            height: 100%;
+
+            .servicios-row {
+                // border: 1px solid brown;
+                height: 200px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    // border: 1px solid red;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    text-align: end;
+                }
+            }
+        }
+    }
 
 
 
