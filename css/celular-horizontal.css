@@ -152,6 +152,10 @@
         justify-content: center;
         align-items: center;
     }
+    #serv-row1-reverse {
+        flex-direction: column-reverse;
+    }
+    
     body .serv-fluid .serv-container .serv-row1 .serv-row1_A {
         width: 100%;
         margin-bottom: 35px;

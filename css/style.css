@@ -412,7 +412,7 @@ body .serv-fluid .serv-container {
 body .serv-fluid .serv-container .serv-row1 {
   height: 100%;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
