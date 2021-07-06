@@ -403,5 +403,128 @@ body .servicios-fluid .servicios-container .servicios-row h2 {
   font-weight: bold;
   text-align: end;
 }
+body .serv-fluid {
+  border: 1px solid black;
+  height: auto;
+}
+body .serv-fluid .serv-container {
+  border: 1px solid gray;
+  height: 100%;
+}
+body .serv-fluid .serv-container .serv-row1 {
+  border: 1px solid darkgoldenrod;
+  height: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_A {
+  border: 1px solid red;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_A h2 {
+  border: 1px solid green;
+  width: 100%;
+  padding: 50px 0px 30px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: start;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_A p {
+  border: 1px solid green;
+  text-align: justify;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B {
+  border: 1px solid red;
+  padding: 0;
+  width: 35%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 {
+  background-color: #b8b8b8;
+  color: #ffffff;
+  font-family: "Monsterrat", sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:after {
+  background-color: #B1C447;
+  bottom: 0;
+  content: "";
+  height: 0%;
+  left: 0;
+  position: absolute;
+  width: 10px;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 img {
+  vertical-align: top;
+  height: 100%;
+  backface-visibility: hidden;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 figcaption {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  line-height: 1em;
+  opacity: 0;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 {
+  text-align: start;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 span {
+  display: block;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: justify;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:hover > img,
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538.hover > img {
+  opacity: 0.1;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:hover:after,
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538.hover:after {
+  height: 100%;
+}
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:hover figcaption,
+body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538.hover figcaption {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
