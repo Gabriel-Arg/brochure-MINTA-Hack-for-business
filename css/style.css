@@ -404,16 +404,14 @@ body .servicios-fluid .servicios-container .servicios-row h2 {
   text-align: end;
 }
 body .serv-fluid {
-  border: 1px solid black;
   height: auto;
 }
 body .serv-fluid .serv-container {
-  border: 1px solid gray;
   height: 100%;
 }
 body .serv-fluid .serv-container .serv-row1 {
-  border: 1px solid darkgoldenrod;
   height: 100%;
+  width: 100%;
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
@@ -421,7 +419,6 @@ body .serv-fluid .serv-container .serv-row1 {
   align-items: center;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_A {
-  border: 1px solid red;
   width: 60%;
   height: 100%;
   display: flex;
@@ -430,7 +427,6 @@ body .serv-fluid .serv-container .serv-row1 .serv-row1_A {
   justify-content: center;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_A h2 {
-  border: 1px solid green;
   width: 100%;
   padding: 50px 0px 30px;
   font-weight: bold;
@@ -438,11 +434,9 @@ body .serv-fluid .serv-container .serv-row1 .serv-row1_A h2 {
   text-align: start;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_A p {
-  border: 1px solid green;
   text-align: justify;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B {
-  border: 1px solid red;
   padding: 0;
   width: 35%;
   height: 500px;
@@ -484,7 +478,9 @@ body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:after {
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 img {
   vertical-align: top;
   height: 100%;
+  width: 100%;
   backface-visibility: hidden;
+  object-fit: cover;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 figcaption {
   z-index: 1;
@@ -505,14 +501,12 @@ body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 0px 60px;
   text-transform: uppercase;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 span {
   display: block;
   font-weight: 600;
-  margin-top: 10px;
-  text-align: justify;
 }
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538:hover > img,
 body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538.hover > img {

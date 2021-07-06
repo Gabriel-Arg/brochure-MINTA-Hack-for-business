@@ -222,6 +222,12 @@
     }
 
     /* --------------los servicios--------------------- */
+    body .serv-fluid .serv-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     body .serv-fluid .serv-container .serv-row1 {
         flex-direction: column;
         justify-content: center;
@@ -229,11 +235,20 @@
     }
     body .serv-fluid .serv-container .serv-row1 .serv-row1_A,
     body .serv-fluid .serv-container .serv-row1 .serv-row1_B {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     height: 100%;
     }
-
+    body .serv-fluid .serv-container .serv-row1 .serv-row1_B {
+        width: 100%;
+        height: 350px;
+    }
+    body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 {
+        margin: 0px 40px;
+    }
+    body .serv-fluid .serv-container .serv-row1 .serv-row1_B .snip1538 h3 span {
+        text-align: start;
+    }
 
 
 
