@@ -565,5 +565,45 @@ body .serv-fluid .serv-container .serv-row1 #serv_listas2 {
 body .serv-fluid .serv-container .serv-row1 #serv_listas2 ul {
   margin-left: 50px;
 }
+body .siguiente-fluid {
+  height: 550px;
+  position: relative;
+  z-index: -1;
+}
+body .siguiente-fluid .siguiente-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .siguiente-fluid .siguiente-container .siguiente-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .siguiente-fluid .siguiente-container .siguiente-row figure {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  left: 0px;
+}
+body .siguiente-fluid .siguiente-container .siguiente-row figure img {
+  width: 100%;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 3px 3px 7px #b8b8b8;
+}
+body .siguiente-fluid .siguiente-container .siguiente-row p {
+  width: auto;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+body .siguiente-fluid .siguiente-container .siguiente-row h3 {
+  font-weight: bold;
+  color: #B1C447;
+  font-size: 32px;
+}
 
 /*# sourceMappingURL=style.css.map */

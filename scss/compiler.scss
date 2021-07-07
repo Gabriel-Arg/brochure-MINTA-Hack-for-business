@@ -761,8 +761,65 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           SIGUIENTE NIVEL
+    // ------------------------------------------------------------------
 
+    .siguiente-fluid {
+        // border: 1px solid black;
+        height: 550px;
+        position: relative;
+        z-index: -1;
 
+        .siguiente-container {
+            // border: 1px solid gray;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .siguiente-row {
+                // border: 1px solid darkgoldenrod;
+                // width: auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                // -----Etiqueta laterla con el logo
+                figure {
+                    // border: 1px solid red;
+                    // background-color: $color-negro;
+                    width: 40px;
+                    height: 40px;
+                    padding: 0;
+                    position: absolute;
+                    left: 0px;
+
+                    img {
+                        width: 100%;
+                        border-radius: 0px 5px 5px 0px;
+                        box-shadow: 3px 3px 7px $color-gris;
+                    }
+                }
+
+                p {
+                    width: auto;
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                }
+
+                h3 {
+                    font-weight: bold;
+                    color: $color-verde;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
 
 
 

@@ -168,6 +168,25 @@
         margin: 0px 80px;
     }
 
+    /* ------------------------------------------------------------------ */
+    /*             SIGUIENTE NIVEL */
+    body .siguiente-fluid {
+        height: 350px;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row figure {
+        width: 35px;
+        height: 35px;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row p {
+        font-size: 12px;
+        text-align: center;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
 
 
 

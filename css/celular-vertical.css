@@ -255,5 +255,22 @@
         text-align: start;
     }
 
+    /* ------------------------------------------------------------------ */
+    /*             SIGUIENTE NIVEL */
+    body .siguiente-fluid {
+        height: 550px;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row figure {
+        bottom: 20%;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row p {
+        font-size: 14px;
+        text-align: center;
+    }
+    body .siguiente-fluid .siguiente-container .siguiente-row h3 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
 
 }
