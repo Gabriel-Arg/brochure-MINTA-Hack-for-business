@@ -821,9 +821,57 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           lAS OTRAS M
+    // ------------------------------------------------------------------
+
+    .otrasm-fluid {
+        // border: 1px solid black;
+        height: 400px;
+
+        .otrasm-container {
+            // border: 1px solid gray;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .otrasm-row {
+                // border: 1px solid goldenrod;
+                width: 100%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+
+                h2 {
+                    // border: 1px solid red;
+                    width: auto;
+                    margin: 0;
+                    font-size: 55px;
+                    font-weight: bold;
+                }
+
+                figure {
+                    width: 80px;
+                    margin: 0;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 
 
 
 
-    
+
+
+
+
 }

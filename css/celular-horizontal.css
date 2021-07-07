@@ -186,6 +186,19 @@
         text-align: center;
     }
 
+    /* ------------------------------------------------------------------ */
+    /*             LAS OTRAAS M */
+
+    body .otrasm-fluid {
+        height: 350px;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row h2 {
+        font-size: 35px;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row figure {
+        width: 60px;
+    }
+
 
 
 

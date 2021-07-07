@@ -262,6 +262,8 @@
     }
     body .siguiente-fluid .siguiente-container .siguiente-row figure {
         bottom: 20%;
+        width: 30px;
+        height: 30px;
     }
     body .siguiente-fluid .siguiente-container .siguiente-row p {
         font-size: 14px;
@@ -271,6 +273,25 @@
         font-size: 1.4rem;
         text-align: center;
     }
+
+    /* ------------------------------------------------------------------ */
+    /*             LAS OTRAAS M */
+
+    body .otrasm-fluid .otrasm-container .otrasm-row {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row h2 {
+        font-size: 35px;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row figure {
+        width: 60px;
+    }
+
+
+
+
 
 
 }

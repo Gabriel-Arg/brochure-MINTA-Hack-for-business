@@ -605,5 +605,35 @@ body .siguiente-fluid .siguiente-container .siguiente-row h3 {
   color: #B1C447;
   font-size: 32px;
 }
+body .otrasm-fluid {
+  height: 400px;
+}
+body .otrasm-fluid .otrasm-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .otrasm-fluid .otrasm-container .otrasm-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+body .otrasm-fluid .otrasm-container .otrasm-row h2 {
+  width: auto;
+  margin: 0;
+  font-size: 55px;
+  font-weight: bold;
+}
+body .otrasm-fluid .otrasm-container .otrasm-row figure {
+  width: 80px;
+  margin: 0;
+}
+body .otrasm-fluid .otrasm-container .otrasm-row figure img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
