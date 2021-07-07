@@ -867,6 +867,44 @@ body {
         }
     }
 
+    // ------------------------------------------------------------------
+    //           POINT Y TRAVEL
+    // ------------------------------------------------------------------
+
+    .point-fluid {
+        border: 1px solid black;
+        height: 100vh;
+
+        .point-container {
+            border: 1px solid gray;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .point-row {
+                border: 1px solid goldenrod;
+                height: 500px;
+                width: 100%;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                .point-row_A,
+                .point-row_B {
+                    border: 1px solid red;
+                    height: 100%;
+                    width: 48%;
+                }
+            }
+        }
+    }
+
+
 
 
 

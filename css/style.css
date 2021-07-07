@@ -635,5 +635,32 @@ body .otrasm-fluid .otrasm-container .otrasm-row figure {
 body .otrasm-fluid .otrasm-container .otrasm-row figure img {
   width: 100%;
 }
+body .point-fluid {
+  border: 1px solid black;
+  height: 100vh;
+}
+body .point-fluid .point-container {
+  border: 1px solid gray;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .point-fluid .point-container .point-row {
+  border: 1px solid goldenrod;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body .point-fluid .point-container .point-row .point-row_A,
+body .point-fluid .point-container .point-row .point-row_B {
+  border: 1px solid red;
+  height: 100%;
+  width: 48%;
+}
 
 /*# sourceMappingURL=style.css.map */
