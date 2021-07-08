@@ -877,6 +877,7 @@ body {
 
         .point-container {
             border: 1px solid gray;
+            padding: 0;
             height: 100%;
 
             display: flex;
@@ -885,20 +886,168 @@ body {
             align-items: center;
 
             .point-row {
-                border: 1px solid goldenrod;
+                border: 1px solid orangered;
                 height: 500px;
                 width: 100%;
 
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-items: center;
 
                 .point-row_A,
                 .point-row_B {
-                    border: 1px solid red;
-                    height: 100%;
+                    border: 1px solid blue;
+                    height: 80%;
                     width: 48%;
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .point-row_B {
+                    cursor: pointer;
+                    padding: 0;
+
+                    figure.snip1437 {
+                        font-family: $fuente-titulos;
+                        position: relative;
+                        float: left;
+                        overflow: hidden;
+                        margin: 0;
+                        // min-width: 230px;
+                        // max-width: 315px;
+                        // max-height: 230px;
+                        width: 100%;
+                        height: 100%;
+                        color: $color-blanco;
+                        background-color: $color-negro;
+                        text-align: right;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                    }
+
+                    figure.snip1437:after {
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: -30%;
+                        right: 70%;
+                        content: '';
+                        background-color: rgba(0, 0, 0, 0.7);
+                        -webkit-transform: skew(20deg) translateX(-75%);
+                        transform: skew(20deg) translateX(-75%);
+                        -webkit-transition: all 0.35s ease;
+                        transition: all 0.35s ease;
+                    }
+
+                    figure.snip1437 * {
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        -webkit-transition: all 0.35s ease;
+                        transition: all 0.35s ease;
+                    }
+
+                    figure.snip1437 img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    figure.snip1437 figcaption {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        z-index: 1;
+                        padding: 20px;
+                    }
+
+                    figure.snip1437 h3,
+                    figure.snip1437 .links {
+                        width: 100%;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    figure.snip1437 h3 {
+                        // line-height: 1.3em;
+                        font-weight: 900;
+                        font-size: 1.5em;
+                        color: $color-blanco;
+                        margin-bottom: 20px;
+                    }
+
+                    figure.snip1437 .links {
+                        font-size: 0.8em;
+                        letter-spacing: 3px;
+                        font-weight: 300;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    figure.snip1437 .links li {
+                        -webkit-transform: translateX(40px);
+                        transform: translateX(40px);
+                        opacity: 0;
+                        list-style: none;
+                    }
+
+                    figure.snip1437 a {
+                        padding: 2px 0;
+                        display: block;
+                        color: #ffffff;
+                        text-decoration: none;
+                    }
+
+                    figure.snip1437 a:hover {
+                        color: #f39c12;
+                    }
+
+                    figure.snip1437:hover:after,
+                    figure.snip1437.hover:after {
+                        -webkit-transform: skew(20deg) translateX(0%);
+                        transform: skew(20deg) translateX(0%);
+                    }
+
+                    figure.snip1437:hover img,
+                    figure.snip1437.hover img {
+                        zoom: 1;
+                        filter: alpha(opacity=50);
+                        -webkit-opacity: 0.5;
+                        opacity: 0.5;
+                    }
+
+                    figure.snip1437:hover li,
+                    figure.snip1437.hover li {
+                        opacity: 1;
+                        -webkit-transform: translateX(0px);
+                        transform: translateX(0px);
+                    }
+
+                    figure.snip1437:hover li:first-child,
+                    figure.snip1437.hover li:first-child {
+                        -webkit-transition-delay: 0.1s;
+                        transition-delay: 0.1s;
+                    }
+
+                    figure.snip1437:hover li:nth-child(2),
+                    figure.snip1437.hover li:nth-child(2) {
+                        -webkit-transition-delay: 0.2s;
+                        transition-delay: 0.2s;
+                    }
+
+                    figure.snip1437:hover li:nth-child(3),
+                    figure.snip1437.hover li:nth-child(3) {
+                        -webkit-transition-delay: 0.3s;
+                        transition-delay: 0.3s;
+                    }
+
+                    figure.snip1437:hover li:nth-child(4),
+                    figure.snip1437.hover li:nth-child(4) {
+                        -webkit-transition-delay: 0.4s;
+                        transition-delay: 0.4s;
+                    }
                 }
             }
         }
