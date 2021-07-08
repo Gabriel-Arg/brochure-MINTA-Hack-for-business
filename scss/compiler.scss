@@ -907,10 +907,23 @@ body {
                     align-items: center;
                 }
 
+                .point-row_A {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+
+                    figure {
+                        border: 1px solid red;
+                        width: 200px;
+                    }
+                }
+
                 .point-row_B {
                     cursor: pointer;
                     padding: 0;
 
+                    // ----------EFECTO HOVER EN LA IMAGEN
                     figure.snip1437 {
                         font-family: $fuente-titulos;
                         position: relative;
@@ -952,6 +965,7 @@ body {
 
                     figure.snip1437 img {
                         width: 100%;
+                        height: 100%;
                         object-fit: cover;
                     }
 

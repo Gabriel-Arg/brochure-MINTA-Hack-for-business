@@ -276,6 +276,20 @@
 
     /* ------------------------------------------------------------------ */
     /*             LAS OTRAAS M */
+    body .otrasm-fluid .otrasm-container .otrasm-row {
+        justify-content: center;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row h2 {
+        width: auto;
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    body .otrasm-fluid .otrasm-container .otrasm-row figure {
+        width: 60px;
+        margin: 0;
+    }
+
     body .point-fluid .point-container .point-row {
         height: auto;
         width: 100%;
@@ -283,9 +297,9 @@
     }
     body .point-fluid .point-container .point-row .point-row_A,
     body .point-fluid .point-container .point-row .point-row_B {
-        border: 1px solid blue;
-        height: 300px;
+        height: 350px;
         width: 100%;
+        margin-bottom: 30px;
     }
 
 
