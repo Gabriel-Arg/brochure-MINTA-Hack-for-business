@@ -872,11 +872,11 @@ body {
     // ------------------------------------------------------------------
 
     .point-fluid {
-        border: 1px solid black;
+        // border: 1px solid black;
         height: 100vh;
 
         .point-container {
-            border: 1px solid gray;
+            // border: 1px solid gray;
             padding: 0;
             height: 100%;
 
@@ -886,7 +886,7 @@ body {
             align-items: center;
 
             .point-row {
-                border: 1px solid orangered;
+                // border: 1px solid orangered;
                 height: 500px;
                 width: 100%;
 
@@ -897,7 +897,7 @@ body {
 
                 .point-row_A,
                 .point-row_B {
-                    border: 1px solid blue;
+                    // border: 1px solid blue;
                     height: 80%;
                     width: 48%;
 
@@ -914,8 +914,19 @@ body {
                     align-items: flex-start;
 
                     figure {
-                        border: 1px solid red;
+                        // border: 1px solid green;
                         width: 200px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+
+                    h4 {
+                        color: $color-gris-oscuro;
+                        font-weight: bold;
+                        text-align: end;
                     }
                 }
 

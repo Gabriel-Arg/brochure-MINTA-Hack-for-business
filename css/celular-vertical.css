@@ -290,18 +290,16 @@
         margin: 0;
     }
 
-    body .point-fluid .point-container .point-row {
-        height: auto;
-        width: 100%;
-        flex-direction: column;
-    }
+    /* --------------POINT-------------*/
     body .point-fluid .point-container .point-row .point-row_A,
     body .point-fluid .point-container .point-row .point-row_B {
-        height: 350px;
+        height: 100%;
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
-
+    body .point-fluid .point-container .point-row .point-row_A {
+        margin-bottom: 100px;
+    }
 
 
 

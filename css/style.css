@@ -636,11 +636,9 @@ body .otrasm-fluid .otrasm-container .otrasm-row figure img {
   width: 100%;
 }
 body .point-fluid {
-  border: 1px solid black;
   height: 100vh;
 }
 body .point-fluid .point-container {
-  border: 1px solid gray;
   padding: 0;
   height: 100%;
   display: flex;
@@ -649,7 +647,6 @@ body .point-fluid .point-container {
   align-items: center;
 }
 body .point-fluid .point-container .point-row {
-  border: 1px solid orangered;
   height: 500px;
   width: 100%;
   display: flex;
@@ -659,7 +656,6 @@ body .point-fluid .point-container .point-row {
 }
 body .point-fluid .point-container .point-row .point-row_A,
 body .point-fluid .point-container .point-row .point-row_B {
-  border: 1px solid blue;
   height: 80%;
   width: 48%;
   display: flex;
@@ -674,8 +670,16 @@ body .point-fluid .point-container .point-row .point-row_A {
   align-items: flex-start;
 }
 body .point-fluid .point-container .point-row .point-row_A figure {
-  border: 1px solid red;
   width: 200px;
+}
+body .point-fluid .point-container .point-row .point-row_A p {
+  font-size: 14px;
+  text-align: justify;
+}
+body .point-fluid .point-container .point-row .point-row_A h4 {
+  color: #525252;
+  font-weight: bold;
+  text-align: end;
 }
 body .point-fluid .point-container .point-row .point-row_B {
   cursor: pointer;
