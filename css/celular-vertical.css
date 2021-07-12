@@ -296,6 +296,7 @@
         height: 100%;
         width: 100%;
         margin-bottom: 20px;
+        border: 1px solid red;
     }
     body .point-fluid .point-container .point-row .point-row_A {
         margin-bottom: 100px;
