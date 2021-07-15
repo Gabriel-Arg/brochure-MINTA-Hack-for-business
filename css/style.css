@@ -665,6 +665,7 @@ body .point-fluid .point-container .point-row .point-row_B {
   align-items: center;
 }
 body .point-fluid .point-container .point-row .point-row_A {
+  padding-right: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -681,6 +682,10 @@ body .point-fluid .point-container .point-row .point-row_A h4 {
   color: #525252;
   font-weight: bold;
   text-align: end;
+  width: 100%;
+}
+body .point-fluid .point-container .point-row .point-row_A ul li {
+  font-size: 14px;
 }
 body .point-fluid .point-container .point-row .point-row_B {
   cursor: pointer;

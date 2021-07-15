@@ -831,7 +831,7 @@ body {
         height: 400px;
 
         .otrasm-container {
-            // border: 1px solid gray;
+            // border: 1px dashed gray;
             height: 100%;
 
             display: flex;
@@ -840,7 +840,7 @@ body {
             align-items: center;
 
             .otrasm-row {
-                // border: 1px solid goldenrod;
+                // border: 1px dashed goldenrod;
                 width: 100%;
 
                 display: flex;
@@ -877,7 +877,7 @@ body {
         height: 100vh;
 
         .point-container {
-            // border: 1px solid gray;
+            // border: 1px dashed blue;
             padding: 0;
             height: 100%;
 
@@ -887,7 +887,7 @@ body {
             align-items: center;
 
             .point-row {
-                // border: 1px solid orangered;
+                // border: 1px dashed orangered;
                 height: 500px;
                 width: 100%;
 
@@ -909,6 +909,7 @@ body {
                 }
 
                 .point-row_A {
+                    padding-right: 50px;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -928,6 +929,11 @@ body {
                         color: $color-gris-oscuro;
                         font-weight: bold;
                         text-align: end;
+                        width: 100%;
+                    }
+
+                    ul li {
+                        font-size: 14px;
                     }
                 }
 
