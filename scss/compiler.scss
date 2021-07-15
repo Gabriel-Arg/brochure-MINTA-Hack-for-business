@@ -1007,7 +1007,7 @@ body {
                         font-weight: 900;
                         font-size: 1.5em;
                         color: $color-blanco;
-                        margin-bottom: 20px;
+                        margin: 50px 0 20px 0;
                     }
 
                     figure.snip1437 .links {
@@ -1019,10 +1019,22 @@ body {
                     }
 
                     figure.snip1437 .links li {
+                        color: $color-blanco;
                         -webkit-transform: translateX(40px);
                         transform: translateX(40px);
                         opacity: 0;
                         list-style: none;
+                    }
+
+                    #vermas {
+                        background-color: $color-gris-oscuro;
+                        margin-top: 80px;
+                        padding: 5px 30px;
+                        border: none;
+
+                        a:hover {
+                            color: $color-verde;
+                        }
                     }
 
                     figure.snip1437 a {

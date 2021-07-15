@@ -746,7 +746,7 @@ body .point-fluid .point-container .point-row .point-row_B figure.snip1437 h3 {
   font-weight: 900;
   font-size: 1.5em;
   color: #F9F9F9;
-  margin-bottom: 20px;
+  margin: 50px 0 20px 0;
 }
 body .point-fluid .point-container .point-row .point-row_B figure.snip1437 .links {
   font-size: 0.8em;
@@ -756,10 +756,20 @@ body .point-fluid .point-container .point-row .point-row_B figure.snip1437 .link
   padding: 0;
 }
 body .point-fluid .point-container .point-row .point-row_B figure.snip1437 .links li {
+  color: #F9F9F9;
   -webkit-transform: translateX(40px);
   transform: translateX(40px);
   opacity: 0;
   list-style: none;
+}
+body .point-fluid .point-container .point-row .point-row_B #vermas {
+  background-color: #525252;
+  margin-top: 80px;
+  padding: 5px 30px;
+  border: none;
+}
+body .point-fluid .point-container .point-row .point-row_B #vermas a:hover {
+  color: #B1C447;
 }
 body .point-fluid .point-container .point-row .point-row_B figure.snip1437 a {
   padding: 2px 0;
