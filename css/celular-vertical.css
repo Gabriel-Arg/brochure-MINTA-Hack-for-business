@@ -4,6 +4,22 @@
         display: flex;
     }
 
+    /* -------------------------------------------- */
+    /* ------------BOTON CONTACTO------- */
+    /* -------------------------------------------- */
+    body .btn-contacto {
+        border-radius: 0px;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        position: static;
+    }
+    body .btn-contacto img {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
     .menu-container-fluid, .menu-container, .menu-row {
         height: auto;
         position: absolute;
@@ -84,22 +100,6 @@
     }
     .burguer-icon_marco:hover {
         border: 2px solid #F9F9F9;
-    }
-
-    /* -------------------------------------------- */
-    /* ------------BOTON CONTACTO------- */
-    /* -------------------------------------------- */
-    body .btn-contacto {
-        border-radius: 0px;
-        padding: 0;
-        width: 45px;
-        height: 45px;
-        position: static;
-    }
-    body .btn-contacto img {
-        width: 100%;
-        height: 100%;
-        padding: 0;
     }
 
     /* -------------------------------------------- */
