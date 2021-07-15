@@ -9,6 +9,9 @@
     }
     #btn-burger {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     /*---------- MENU ACTIVO Y OCULTO -------------*/

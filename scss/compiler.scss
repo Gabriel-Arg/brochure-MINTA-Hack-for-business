@@ -34,17 +34,21 @@ body {
     //           BOTON HAMBURGUEZA
     // ------------------------------------------------------------
     .burger-icon {
-        background-color: $color-gris;
-        border-radius: 5px 0px 0px 5px;
-        box-shadow: 3px 3px 7px #525252;
+        background-color: $color-gris-oscuro;
+        border-radius: 0px 0px 5px 0px;
         width: 45px;
         height: 45px;
         cursor: pointer;
         position: fixed;
-        bottom: 120px;
+        top: 0px;
         right: 0px;
         z-index: 3;
         display: none;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
     }
     //    queda pendiente efecto hover neon
     .burger-icon:hover {
