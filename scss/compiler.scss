@@ -32,10 +32,10 @@ body {
 
 
     // ------------------------------------------------------------
-    //           BARRA DE NAVEGACIÓN
+    //           BARRA DE NAVEGACIÓN RESPONSIVE
     // ------------------------------------------------------------
     .barra-fluid {
-        border: 1px dashed rgb(205, 50, 192);
+        // border: 1px dashed rgb(205, 50, 192);
         background-color: $color-blanco;
         height: 50px;
 
@@ -50,7 +50,7 @@ body {
             height: 100%;
 
             .barra-row {
-                border: 1px dashed blue;
+                // border: 1px dashed blue;
                 height: 100%;
 
                 display: flex;
@@ -146,10 +146,13 @@ body {
     // ------------------------------------------------------------
 
     .btn-contacto {
-        border-radius: 0px 0px 0px 5px;
-        width: 80px;
-        width: 80px;
+        // border: 1px dashed red;
+        border-radius: 5px;
+        padding: 10px 10px 8px;
+        width: 75px;
+        width: 75px;
         cursor: pointer;
+        transition: 0.4s;
         
         position: fixed;
         bottom: 20px;
@@ -160,6 +163,9 @@ body {
             border-radius: 5px;
             width: 100%;
         }
+    }
+    .btn-contacto:hover {
+        background-color: $color-verde;
     }
 
     // ------------------MODAL-----------------------------

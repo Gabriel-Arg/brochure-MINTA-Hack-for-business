@@ -29,7 +29,6 @@ body {
   background-color: #F9F9F9;
 }
 body .barra-fluid {
-  border: 1px dashed #cd32c0;
   background-color: #F9F9F9;
   height: 50px;
   position: fixed;
@@ -41,7 +40,6 @@ body .barra-fluid .barra-container {
   height: 100%;
 }
 body .barra-fluid .barra-container .barra-row {
-  border: 1px dashed blue;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -101,10 +99,12 @@ body .menu-container-fluid .menu-container .menu-row nav ul a:hover {
   transition: 0.4s;
 }
 body .btn-contacto {
-  border-radius: 0px 0px 0px 5px;
-  width: 80px;
-  width: 80px;
+  border-radius: 5px;
+  padding: 10px 10px 8px;
+  width: 75px;
+  width: 75px;
   cursor: pointer;
+  transition: 0.4s;
   position: fixed;
   bottom: 20px;
   right: 4%;
@@ -113,6 +113,9 @@ body .btn-contacto {
 body .btn-contacto img {
   border-radius: 5px;
   width: 100%;
+}
+body .btn-contacto:hover {
+  background-color: #B1C447;
 }
 body .modal_contacto {
   padding-top: 0;
