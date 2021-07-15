@@ -51,9 +51,9 @@ body {
         }
     }
     //    queda pendiente efecto hover neon
-    .burger-icon:hover {
-        border: 5px solid $color-verde;
-    }
+    // .burger-icon:hover {
+    //     border: 5px solid $color-verde;
+    // }
 
     // ------------------------------------------------------------
     //           BARRA DE NAVEGACIÓN
@@ -115,14 +115,14 @@ body {
     // ------------------------------------------------------------
 
     .btn-contacto {
-        border-radius: 5px 0px 0px 5px;
+        border-radius: 0px 0px 0px 5px;
         width: 60px;
         width: 60px;
         cursor: pointer;
         
         position: fixed;
         bottom: 20px;
-        right: 2%;
+        right: 4%;
         z-index: 2;
 
         img {
