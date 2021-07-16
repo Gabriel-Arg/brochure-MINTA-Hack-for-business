@@ -201,7 +201,7 @@ body {
             p {
                 font-family: $fuente-parrafos;
                 color: $color-negro;
-                font-weight: bold;
+                // font-weight: bold;
             }
         }
 
@@ -218,6 +218,8 @@ body {
 
                 a {
                     color: $color-negro;
+                    font-size: 18px;
+                    font-weight: 400;
                 }
             }
         }
