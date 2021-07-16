@@ -480,7 +480,8 @@ body {
     .porque-fluid {
         // border: 1px solid blue;
         height: auto;
-        margin: 200px 0px 100px;
+        margin: 100px 0px 100px;
+        padding-top: 100px;
         position: relative;
         z-index: -1;
 
@@ -567,8 +568,9 @@ body {
     //           NUESTROS SERVICIOS
     // ------------------------------------------------------------------
     .servicios-fluid {
-        // border: 1px solid black;
+        // border: 1px dashed blue;
         height: auto;
+        padding-top: 200px;
 
         .servicios-container {
             // border: 1px solid gray;
@@ -594,7 +596,7 @@ body {
     }
 
     .serv-fluid {
-        // border: 1px solid black;
+        // border: 1px dashed blue;
         height: auto;
 
         .serv-container {

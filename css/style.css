@@ -351,7 +351,8 @@ body .comentarios-fluid .comentarios-container .comentarios-row .comentarios-row
 }
 body .porque-fluid {
   height: auto;
-  margin: 200px 0px 100px;
+  margin: 100px 0px 100px;
+  padding-top: 100px;
   position: relative;
   z-index: -1;
 }
@@ -412,6 +413,7 @@ body .porque-fluid .porque-container .porque-row .porque-row_linea p {
 }
 body .servicios-fluid {
   height: auto;
+  padding-top: 200px;
 }
 body .servicios-fluid .servicios-container {
   height: 100%;
